@@ -127,6 +127,13 @@ h2 {
   font-weight: 400;
   line-height: 21px;
 }
+.text-lg1 {
+  color: var(blue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
 
 /* Section Titles */
 /* Skills & About Me */
@@ -154,7 +161,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85.333px;
+  padding: 2px 58.333px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -162,6 +169,7 @@ h2 {
   left: 0;
   right: 0;
 }
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
@@ -169,6 +177,7 @@ h2 {
   gap: 42.667px;
   text-decoration: none;
 }
+
 .navbar--items ul > li > a {
   text-decoration: none;
 }
@@ -176,7 +185,7 @@ h2 {
 .navbar--content {
   color: var(--darkblue);
   font-size: 16px;
-  font-style: normal;
+  font-style: nrmal;
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
@@ -190,7 +199,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 235.333px 85.333px 133.333px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -535,11 +544,11 @@ input[type="checkbox"] {
 .footer--social--icon > ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  margin-left: 36vw;
   gap: 16px;
   flex-shrink: 0;
   text-decoration: none;
+  
 }
 .divider {
   margin: 106px 0 42.67px;
@@ -620,6 +629,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
+  
   .skills--section,
   .portfolio--container,
   .hero--section--content,
@@ -637,6 +647,7 @@ input[type="checkbox"] {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  
   .about--section {
     gap: 20px;
     padding-top: 0;
@@ -662,11 +673,8 @@ input[type="checkbox"] {
     flex-direction: column;
     gap: 10px;
   }
-  .footer--social--icon > ul,
-  .footer--items > ul {
-    padding: 0;
-    align-items: center;
-  }
+  
+  
   .divider {
     margin: 20px;
   }
